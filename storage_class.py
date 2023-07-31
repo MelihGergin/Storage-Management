@@ -1,7 +1,7 @@
 class storage():
     try:
         print("Materials and Quantities in the Storage"
-            "\n\n1- M4 bolts \n2- M6 bolts \n3- 0.4mm 1000x2000 304 stainless steel sheet")
+            "\n\n1- M4 bolts \n2- M6 bolts \n3- 0.4mm 1000x2000mm2 304 stainless steel sheet")
         a = input("Please select a material (1/2/3): ")
         list = ['1- Quantity of M4 bolts: ', 300, '2- Quantity of M6 bolts: ', 300, '3- 0.4mm 1000x2000mm2 Quantity of 304 stainless steel sheet: ', 20]
         if a == "1":
